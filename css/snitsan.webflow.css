@@ -2521,7 +2521,8 @@ figcaption {
 
   .image-3 {
     object-position: 100% 50%;
-    max-width: 90vw;
+    min-height: auto;
+    max-height: none;
   }
 
   .ljus-rubrik {
@@ -2631,6 +2632,7 @@ figcaption {
   }
 
   .img-img-fade-filter {
+    aspect-ratio: auto;
     object-position: 50% 50%;
     min-height: 100%;
   }
@@ -2651,6 +2653,11 @@ figcaption {
     font-size: 1.2rem;
     font-weight: 300;
     line-height: 2.2rem;
+  }
+
+  .grid.new {
+    grid-column-gap: 0rem;
+    grid-row-gap: 0rem;
   }
 
   .flex-block.body {
@@ -2712,11 +2719,6 @@ figcaption {
 
 #w-node-_28300bd7-d36e-7b24-e270-6631f8478fa3-0d40dd05 {
   grid-area: span 1 / span 3 / span 1 / span 3;
-}
-
-#w-node-_50911423-aeda-c524-a751-f1b9c20d3fc1-0d40dd05 {
-  grid-area: span 1 / span 2 / span 1 / span 2;
-  align-self: center;
 }
 
 #w-node-_50911423-aeda-c524-a751-f1b9c20d3fcc-0d40dd05 {
@@ -2816,7 +2818,7 @@ figcaption {
     justify-self: end;
   }
 
-  #w-node-_50911423-aeda-c524-a751-f1b9c20d3fc1-0d40dd05, #w-node-_50911423-aeda-c524-a751-f1b9c20d3fcc-0d40dd05 {
+  #w-node-_50911423-aeda-c524-a751-f1b9c20d3fcc-0d40dd05 {
     grid-area: span 1 / span 3 / span 1 / span 3;
     align-self: center;
   }
